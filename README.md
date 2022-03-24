@@ -51,7 +51,7 @@ Install the package requirements:
     - [doubleDQN.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/doubleDQN.py): DDQN model and train
     - [network.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/network.py): Dueling Network model
     - [replayBuffer.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/replayBuffer.py): ReplayBuffer class (memory)
-* Make sure checkpoint.pth is in same directory
+* Make sure [checkpoint.pth](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/checkpoint.pth) and [Banana_Linux](https://github.com/bmaxdk/DeepRL-ND-Navigation/tree/main/libs/Banana_Linux) are in same directory
 * To run program in terminal:
 ```
 python main.py --environment/Banana_Linux/Banana.x86_64 
