@@ -45,12 +45,12 @@ Install the package requirements:
 * Follow the instructions in [`Navigation-DDQN-Dueling.ipynb`](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb) to train and run the agent!
 
 (Option2)
-* Download all the file in [`libs`](https://github.com/bmaxdk/DeepRL-ND-Navigation/tree/main/lib)
-    - [main.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/main.py): Simulae running agent
-    - [agent.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/agent.py): Agent class
-    - [doubleDQN.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/doubleDQN.py): DDQN model and train
-    - [network.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/network.py): Dueling Network model
-    - [replayBuffer.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/replayBuffer.py): ReplayBuffer class (memory)
+* Download all the file in [`libs`](https://github.com/bmaxdk/DeepRL-ND-Navigation/tree/main/libs)
+    - [main.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/main.py): Simulae running agent
+    - [agent.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/agent.py): Agent class
+    - [doubleDQN.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/doubleDQN.py): DDQN model and train
+    - [network.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/network.py): Dueling Network model
+    - [replayBuffer.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/replayBuffer.py): ReplayBuffer class (memory)
 * Make sure checkpoint.pth is in same directory
 * To run program in terminal:
 ```
