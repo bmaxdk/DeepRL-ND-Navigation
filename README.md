@@ -45,13 +45,23 @@ Install the package requirements:
 * Follow the instructions in [`Navigation-DDQN-Dueling.ipynb`](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb) to train and run the agent!
 
 (Option2)
-* run main.py in [`./libs`](https://github.com/bmaxdk/DeepRL-ND-Navigation/tree/main/lib)
+* Download all the file in [`libs`](https://github.com/bmaxdk/DeepRL-ND-Navigation/tree/main/lib)
     - [main.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/main.py): Simulae running agent
     - [agent.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/agent.py): Agent class
     - [doubleDQN.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/doubleDQN.py): DDQN model and train
     - [network.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/network.py): Dueling Network model
     - [replayBuffer.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/replayBuffer.py): ReplayBuffer class (memory)
 * Make sure checkpoint.pth is in same directory
+* To run program in terminal:
+```
+python main.py --environment/Banana_Linux/Banana.x86_64 
+```
+* To train program in terminal:
+```
+python doubleDQN.py --environment/Banana_Linux/Banana.x86_64
+```
+
+
 <!-- ### (Optional) Challenge: Learning from Pixels
 
 After you have successfully completed the project, if you're looking for an additional challenge, you have come to the right place!  In the project, your agent learned from information such as its velocity, along with ray-based perception of objects around its forward direction.  A more challenging task would be to learn directly from pixels!
