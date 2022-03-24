@@ -4,7 +4,7 @@
 
 [image1]: https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/video/DQN.gif "Trained Agent"
 
-# Project 1: Navigation
+## Project 1: Navigation
 
 ### Introduction
 
