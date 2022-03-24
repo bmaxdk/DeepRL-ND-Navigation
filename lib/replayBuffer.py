@@ -2,7 +2,7 @@
 import numpy as np
 import random
 from collections import namedtuple, deque
-
+import torch
 class ReplayBuffer:
     def __init__(self, action_size, buffer_size, batch_size, seed, device):
         """

@@ -1,4 +1,12 @@
 # Setting the environment
+from unityagents import UnityEnvironment
+# please do not modify the line below
+env = UnityEnvironment(file_name="Banana_Linux/Banana.x86_64")
+# get the default brain
+brain_name = env.brain_names[0]
+brain = env.brains[brain_name]
+
+# Setting the environment
 from agent import Agent
 
 agent = Agent(state_size=37, action_size=4, seed=0)
