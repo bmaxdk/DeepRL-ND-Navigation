@@ -4,7 +4,7 @@
 
 [image1]: https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/video/DQN.gif "Trained Agent"
 
-# Project 1: Navigation
+## Project 1: Navigation
 
 ### Introduction
 
@@ -36,11 +36,23 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
+### Installation
+Install the package requirements:
+``!pip -q install ./python``
+
 ### Instructions
+(Option1)
+* Follow the instructions in [`Navigation-DDQN-Dueling.ipynb`](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb) to train and run the agent!
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
-
-### (Optional) Challenge: Learning from Pixels
+(Option2)
+* run main.py in [`./libs`](https://github.com/bmaxdk/DeepRL-ND-Navigation/tree/main/lib)
+    - [main.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/main.py): Simulae running agent
+    - [agent.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/agent.py): Agent class
+    - [doubleDQN.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/doubleDQN.py): DDQN model and train
+    - [network.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/network.py): Dueling Network model
+    - [replayBuffer.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/lib/replayBuffer.py): ReplayBuffer class (memory)
+* Make sure checkpoint.pth is in same directory
+<!-- ### (Optional) Challenge: Learning from Pixels
 
 After you have successfully completed the project, if you're looking for an additional challenge, you have come to the right place!  In the project, your agent learned from information such as its velocity, along with ray-based perception of objects around its forward direction.  A more challenging task would be to learn directly from pixels!
 
@@ -54,4 +66,4 @@ You need only select the environment that matches your operating system:
 
 Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Navigation_Pixels.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
 
-(_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
+(_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above. -->
