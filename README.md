@@ -58,18 +58,18 @@ Use jupyter notebook to open [`Navigation-DDQN-Dueling.ipynb`](https://github.co
     - [replayBuffer.py](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/replayBuffer.py): ReplayBuffer class (memory)
 * Make sure [checkpoint.pth](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/libs/checkpoint.pth) and [Banana_Linux](https://github.com/bmaxdk/DeepRL-ND-Navigation/tree/main/libs/Banana_Linux) are in same directory
 
-```
-git clone https://github.com/bmaxdk/DeepRL-ND-Navigation.git
-cd DeepRL-ND-Navigation/libs
+```bash
+$ git clone https://github.com/bmaxdk/DeepRL-ND-Navigation.git
+$ cd DeepRL-ND-Navigation/libs
 ```
 
 * To run program in terminal:
-```
-python main.py --environment/Banana_Linux/Banana.x86_64 
+```bash
+$ python main.py --environment/Banana_Linux/Banana.x86_64 
 ```
 * To train program in terminal:
-```
-python doubleDQN.py --environment/Banana_Linux/Banana.x86_64
+```bash
+$ python doubleDQN.py --environment/Banana_Linux/Banana.x86_64
 ```
 
 
