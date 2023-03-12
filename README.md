@@ -43,9 +43,9 @@ Install the package requirements:
 ### Instructions
 (Option1)
 * Follow the instructions in [`Navigation-DDQN-Dueling.ipynb`](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb) to train and run the agent!
-```
-git clone https://github.com/bmaxdk/DeepRL-ND-Navigation.git
-cd DeepRL-ND-Navigation
+```bash
+$ git clone https://github.com/bmaxdk/DeepRL-ND-Navigation.git
+$ cd DeepRL-ND-Navigation
 ```
 Use jupyter notebook to open [`Navigation-DDQN-Dueling.ipynb`](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb)
 
