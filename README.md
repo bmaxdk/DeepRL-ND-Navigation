@@ -1,7 +1,7 @@
 # DeepRL-ND-Navigation
 ## My code from scratch:
 
-`Double DQN-Dueling`:
+`Double Double DQN-Dueling`:
 
 [Navigation-DDQN-Dueling.ipynb](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb)
 
