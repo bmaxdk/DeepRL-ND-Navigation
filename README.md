@@ -1,19 +1,19 @@
 # DeepRL-ND-Navigation
-My code from scratch:
+## My code from scratch:
 
-Double DQN-Dueling:
+`Double DQN-Dueling`:
 
 [Navigation-DDQN-Dueling.ipynb](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb)
 
-DDQN:
+`DDQN`:
 
 [Navigation-DDQN.ipynb](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/other/DDQN/Navigation-DDQN.ipynb)
 
-DuelingDQN:
+`DuelingDQN`:
 
 [Navigation-Dueling-DQN.ipynb](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/other/DuelingDQN/Navigation-Dueling-DQN.ipynb)
 
-DQN:
+`DQN`:
 
 [Navigation-DQN.ipynb](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/other/DQN/Navigation-DQN.ipynb)
 
