@@ -1,4 +1,6 @@
 # DeepRL-ND-Navigation
+## [Report](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Report.pdf)
+
 ## My code from scratch:
 
 `Double Double DQN-Dueling`: [Navigation-DDQN-Dueling.ipynb](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Navigation-DDQN-Dueling.ipynb)
@@ -14,7 +16,6 @@
 [image1]: https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/video/DQN.gif "Trained Agent"
 
 ## Project 1: Navigation
-## [Report](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Report.pdf)
 ### Introduction
 
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
