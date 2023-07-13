@@ -1,4 +1,5 @@
-# DeepRL-ND-Navigation
+<h1 align="center">DeepRL-ND-Navigation</h1>
+
 ## [Report](https://github.com/bmaxdk/DeepRL-ND-Navigation/blob/main/Report.pdf)
 
 ## My code from scratch:
